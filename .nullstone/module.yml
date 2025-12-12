@@ -1,0 +1,14 @@
+org_name: nullstone
+name: gcp-github-actions-arc
+friendly_name: GitHub Actions Runner Controller
+description: Configures a kubernetes cluster with Actions Runner Controller to manage GitHub Actions self-hosted runners.
+category: block
+subcategory: ""
+provider_types:
+    - gcp
+platform: github-actions
+subplatform: ""
+type: ""
+appCategories: []
+is_public: true
+tool_name: opentofu
