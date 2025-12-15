@@ -1,11 +1,3 @@
-variable "github_org" {
-  type        = string
-  description = <<EOF
-This is the GitHub organization that owns the self-hosted runners.
-This will be used to set githubConfigUrl="https://github.com/{var.github_org}".
-EOF
-}
-
 variable "github_app_id" {
   type        = string
   description = <<EOF

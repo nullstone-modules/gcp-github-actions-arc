@@ -7,7 +7,7 @@ subcategory: ""
 provider_types:
     - gcp
 platform: github-actions
-subplatform: ""
+subplatform: k8s
 type: ""
 appCategories: []
 is_public: true
